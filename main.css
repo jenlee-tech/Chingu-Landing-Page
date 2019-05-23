@@ -1,6 +1,7 @@
-body {
+html {
     font-family: "Inconsolata", "arial";
 }
+
 
 .container {
     display: flex;
@@ -12,7 +13,47 @@ body {
 .navigation-bar {
     background-color: gray;
     padding: 1% 2% 100% 1%;
+    text-transform: uppercase;
 
+}
+
+
+/*opacPurple-color: #6272a4;*/
+
+
+/*blue*/
+.nav-item1 {
+    color: #8be9fd;
+}
+
+/*green*/
+.nav-item2 {
+    color: #50fa7b;
+}
+
+/*orange*/
+.nav-item3 {
+    color: #ffb86c;
+}
+
+/*pink*/
+.nav-item4 {
+    color: #ff79c6;
+}
+
+/*purple*/
+.nav-item5 {
+    color: #bd93f9;
+}
+
+/*white*/
+.nav-item6 {
+    color: #f8f8f2;
+}
+
+/*yellow*/
+.nav-item7 {
+    color: #e6db74;
 }
 
 .relevant {
