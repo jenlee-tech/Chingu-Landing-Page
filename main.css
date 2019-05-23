@@ -1,0 +1,28 @@
+body {
+    font-family: "Inconsolata", "arial";
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: space-evenly;*/
+}
+
+.navigation-bar {
+    background-color: gray;
+    padding: 1% 2% 100% 1%;
+
+}
+
+.relevant {
+    background-color: black;
+}
+
+.popular {
+    background-color: black;
+}
+
+.github-issues {
+    background-color: black;
+}
