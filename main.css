@@ -49,11 +49,22 @@ html {
 /*white*/
 .nav-item6 {
     color: #f8f8f2;
+
 }
 
 /*yellow*/
 .nav-item7 {
     color: #e6db74;
+}
+
+li {
+    padding: 3%;
+}
+
+i {
+    padding: 3px;
+    align-content: center;
+    color: black;
 }
 
 .relevant {
@@ -66,4 +77,23 @@ html {
 
 .github-issues {
     background-color: black;
+}
+
+
+.fa-wrench:before {
+    content: "\f0ad";
+    background: #8be9fd;
+    padding: 4px;
+}
+
+.fa-code:before {
+    content: "\f121";
+    background: #50fa7b;
+    padding: 4px;
+}
+
+fa-stack-overflow:before {
+    content: "\f16c";
+    background: #ffb86c;
+    padding: 4px;
 }
