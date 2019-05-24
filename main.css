@@ -12,8 +12,9 @@ html {
 
 .navigation-bar {
     background-color: gray;
-    padding: 1% 2% 100% 1%;
+    padding: 1% 25% 100% 1%;
     text-transform: uppercase;
+    height: 100%;
 
 }
 
@@ -58,7 +59,7 @@ html {
 }
 
 li {
-    padding: 3%;
+    padding: 5%;
 }
 
 i {
@@ -83,17 +84,43 @@ i {
 .fa-wrench:before {
     content: "\f0ad";
     background: #8be9fd;
-    padding: 4px;
+    padding: 7px;
 }
 
 .fa-code:before {
     content: "\f121";
     background: #50fa7b;
-    padding: 4px;
+    padding: 5px;
 }
 
-fa-stack-overflow:before {
+
+
+.fa-stack-overflow:before {
     content: "\f16c";
     background: #ffb86c;
-    padding: 4px;
+    padding: 9px;
+}
+
+.fa-chart-line:before {
+    content: "\f201";
+    background: #ff79c6;
+    padding: 7px;
+}
+
+.fa-pencil-alt:before {
+    content: "\f303";
+    background: #bd93f9;
+    padding: 7px;
+}
+
+.fa-lightbulb:before {
+    content: "\f0eb";
+    background: #f8f8f2;
+    padding: 9px;
+}
+
+.fa-question:before {
+    content: "\f128";
+    background: #e6db74;
+    padding: 8px;
 }
