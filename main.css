@@ -12,7 +12,7 @@ html {
 }
 
 nav {
-    background-color: gray;
+    background-color: #44475a;
     padding: 1% 1% 100%;
     text-transform: uppercase;
     height: 100%;
@@ -20,9 +20,12 @@ nav {
 }
 
 aside {
-    padding: 45% 2% 2% 20%;
+    padding: 60% 20% 20% 10%;
     color: white;
+    /*this colors the foreground color to white*/
+    text-align: center;
 }
+
 
 
 
