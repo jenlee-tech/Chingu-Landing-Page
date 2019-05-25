@@ -8,16 +8,23 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     /*justify-content: space-evenly;*/
+    overflow: hidden;
 }
 
-.navigation-bar {
+nav {
     background-color: gray;
-    padding: 1% 2% 1%;
+    padding: 1% 1% 100%;
     text-transform: uppercase;
     height: 100%;
-    width: 25%;
-
+    width: 20%;
 }
+
+aside {
+    padding: 45% 2% 2% 20%;
+    color: white;
+}
+
+
 
 
 /*styles for the icons in the navigation-bar div*/
@@ -66,14 +73,40 @@ html {
     padding: 8px;
 }
 
+/*
+.fa-facebook:before {
+    content: "\f39e";
+    background: #3B5998;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 10px;
+    vertical-align: middle;
+    padding: 10px;
+    color: white;
+}
+*/
 
+.fb-background {
+    color: #3B5998;
+}
+
+
+
+
+/*Popular section*/
 .popular {
     background-color: pink;
-    padding: 1% 2% 1%;
+    padding: 1% 1% 100%;
     height: 100%;
     width: 25%;
+    height: 100%;
+    overflow-y: hidden;
 
 }
+
+
 
 
 /*opacPurple-color: #6272a4;*/
