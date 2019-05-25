@@ -73,26 +73,23 @@ aside {
     padding: 8px;
 }
 
-/*
-.fa-facebook:before {
-    content: "\f39e";
-    background: #3B5998;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 10px;
-    vertical-align: middle;
-    padding: 10px;
-    color: white;
-}
-*/
 
 .fb-background {
     color: #3B5998;
 }
 
+.lk-background {
+    color: #4875B4;
+}
 
+.tw-background {
+    color: #33CCFF;
+}
+
+.rd-background {
+    color: #8be9fd;
+
+}
 
 
 /*Popular section*/
