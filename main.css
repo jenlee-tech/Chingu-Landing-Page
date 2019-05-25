@@ -4,11 +4,12 @@ html {
 
 
 .container {
+    display: inline-flex;
+    /*
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /*justify-content: space-evenly;*/
+    flex-flow: row wrap;
     overflow: hidden;
+    */
 }
 
 nav {
@@ -16,11 +17,15 @@ nav {
     padding: 1% 1% 100%;
     text-transform: uppercase;
     height: 100%;
-    width: 20%;
+    width: 12%;
+}
+
+ul {
+    padding-inline-start: 5px;
 }
 
 aside {
-    padding: 60% 20% 20% 10%;
+    padding: 60% 10% 20% 5%;
     color: white;
     /*this colors the icon's color to white*/
     text-align: center;
@@ -118,10 +123,10 @@ aside {
 
 /*Popular section*/
 .popular {
-    background-color: pink;
+    background: #272936;
     padding: 1% 1% 100%;
     height: 100%;
-    width: 25%;
+    width: 20%;
     height: 100%;
     overflow-y: hidden;
 
@@ -182,15 +187,35 @@ i {
 }
 
 .relevant {
-    background-color: black;
-    height: 25%;
-    width: 25%;
+
+    background: #272936;
+    padding: 1% 1% 100%;
+    height: 100%;
+    width: 55%;
+    height: 100%;
+    overflow-y: hidden;
 }
 
 
 
 .github-issues {
-    background-color: black;
-    height: 25%;
-    width: 25%;
+    background: #272936;
+    padding: 1% 1% 100%;
+    height: 100%;
+    width: 15%;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+/*styling for Popular Div*/
+
+
+.javascript-blurb {
+    color: white;
+}
+
+h4 {
+    color: #8BE9FC;
+    text-transform: uppercase;
+    text-align: center;
 }
