@@ -30,50 +30,70 @@ aside {
 
 
 
-/*styles for the icons in the navigation-bar div*/
+/*styles for the icons in the nav element*/
 
 .fa-wrench:before {
     content: "\f0ad";
-    background: #8be9fd;
+    background: #8BE9FC;
+    /*BLUE*/
     padding: 7px;
+    border-radius: 4px;
 }
 
 .fa-code:before {
     content: "\f121";
-    background: #50fa7b;
+    background: #74F27C;
+    /*GREEN*/
     padding: 5px;
+    border-radius: 4px;
 }
 
 
 
 .fa-stack-overflow:before {
     content: "\f16c";
-    background: #ffb86c;
+    background: #F7B76B;
+    /*ORANGE*/
     padding: 9px;
+    border-radius: 4px;
 }
 
 .fa-chart-line:before {
     content: "\f201";
-    background: #ff79c6;
+    background: #ED76C5;
+    /*PINK*/
     padding: 7px;
+    border-radius: 4px;
 }
 
 .fa-pencil-alt:before {
     content: "\f303";
     background: #bd93f9;
+    /*PURPLE*/
     padding: 7px;
+    border-radius: 4px;
 }
 
 .fa-lightbulb:before {
     content: "\f0eb";
     background: #f8f8f2;
+    /*WHITE*/
     padding: 9px;
+    border-radius: 4px;
+}
+
+.fa-lock:before {
+    content: "\f023";
+    color: white;
+
 }
 
 .fa-question:before {
     content: "\f128";
     background: #e6db74;
+    /*YELLOW*/
     padding: 8px;
+    border-radius: 4px;
 }
 
 
@@ -115,22 +135,24 @@ aside {
 /*colors*/
 /*blue*/
 .nav-item1 {
-    color: #8be9fd;
+    color: #8BE9FC;
+
 }
 
 /*green*/
 .nav-item2 {
-    color: #50fa7b;
+    color: #74F27C;
+
 }
 
 /*orange*/
 .nav-item3 {
-    color: #ffb86c;
+    color: #F7B76B;
 }
 
 /*pink*/
 .nav-item4 {
-    color: #ff79c6;
+    color: #ED76C5;
 }
 
 /*purple*/
