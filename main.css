@@ -22,7 +22,7 @@ nav {
 aside {
     padding: 60% 20% 20% 10%;
     color: white;
-    /*this colors the foreground color to white*/
+    /*this colors the icon's color to white*/
     text-align: center;
 }
 
@@ -78,19 +78,20 @@ aside {
 
 
 .fb-background {
-    color: #3B5998;
+    color: #3B5997;
 }
 
 .lk-background {
-    color: #4875B4;
+    color: #2b7fb0;
 }
 
 .tw-background {
-    color: #33CCFF;
+    /*color: #33CCFF; */
+    color: #3DACED;
 }
 
 .rd-background {
-    color: #8be9fd;
+    color: #5E98CC;
 
 }
 
