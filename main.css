@@ -5,6 +5,7 @@ html {
 
 .container {
     display: inline-flex;
+    flex-grow: 1;
     /*
     display: flex;
     flex-flow: row wrap;
@@ -16,7 +17,7 @@ nav {
     background-color: #44475a;
     padding: 1% 1% 100%;
     text-transform: uppercase;
-    height: 100%;
+    /*height: 100%;*/
     width: 12%;
 }
 
@@ -127,9 +128,13 @@ aside {
     padding: 1% 1% 100%;
     height: 100%;
     width: 20%;
-    height: 100%;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 
+}
+
+.popular::-webkit-scrollbar {
+    width: 0px;
+    opacity: 0;
 }
 
 
@@ -139,19 +144,22 @@ aside {
 
 /*colors*/
 /*blue*/
-.nav-item1 {
+.nav-item1,
+.blue {
     color: #8BE9FC;
 
 }
 
 /*green*/
-.nav-item2 {
+.nav-item2,
+.green {
     color: #74F27C;
 
 }
 
 /*orange*/
-.nav-item3 {
+.nav-item3,
+.orange {
     color: #F7B76B;
 }
 
@@ -162,12 +170,14 @@ aside {
 }
 
 /*purple*/
-.nav-item5 {
+.nav-item5,
+.purple {
     color: #bd93f9;
 }
 
 /*white*/
-.nav-item6 {
+.nav-item6,
+.white {
     color: #f8f8f2;
 
 }
@@ -193,7 +203,7 @@ i {
     /*  background: #272936; */
     background: white;
     padding: 1% 1% 100%;
-    height: 100%;
+    /*height: 100%;*/
     width: 45%;
 
 }
@@ -203,7 +213,7 @@ i {
 .github-issues {
     background: #272936;
     padding: 1% 1% 100%;
-    height: 100%;
+    /* height: 100%; */
     width: 25%;
 }
 
@@ -218,4 +228,10 @@ h4 {
     color: #8BE9FC;
     text-transform: uppercase;
     text-align: center;
+}
+
+#timestamp {
+    color: #6272A4;
+    font-size: 600%;
+    font-weight: bold;
 }

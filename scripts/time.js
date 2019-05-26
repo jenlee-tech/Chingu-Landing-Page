@@ -20,7 +20,7 @@ window.onload =
         if (nmin <= 9) nmin = "0" + nmin;
 
         clocktext = "" + nhour + ":" + nmin + ap + "";
-        document.getElementById("clockbox").innerHTML = clocktext;
+        document.getElementById("timestamp").innerHTML = clocktext;
 
     };
 
