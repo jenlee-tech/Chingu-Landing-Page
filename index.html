@@ -8,9 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inconsolata" />
     <link rel="stylesheet" href="main.css" />
+    <script type="text/javascript" src="scripts/time.js"></script>
+
 
 </head>
 
@@ -32,29 +33,41 @@
 
             <aside>
                 <div>
-                    <img src="images/initab.JPG" alt="Initab">
+                    <a href="https://www.initab.com/" target="_blank"><img src="images/initab.JPG" alt="Initab"></a>
                 </div>
 
                 <div>
-                    <span class="fa-stack fa-xs">
-                        <i class="fas fa-circle fa-stack-2x fb-background"></i>
-                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                    </span>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <span class="fa-stack fa-xs">
+                            <i class="fas fa-circle fa-stack-2x fb-background"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <span class="fa-stack fa-xs">
+                            <i class="fas fa-circle fa-stack-2x lk-background"></i>
+                            <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
 
-                    <span class="fa-stack fa-xs">
-                        <i class="fas fa-circle fa-stack-2x lk-background"></i>
-                        <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
-                    </span>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <span class="fa-stack fa-xs">
+                            <i class="fas fa-circle fa-stack-2x tw-background"></i>
+                            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
 
-                    <span class="fa-stack fa-xs">
-                        <i class="fas fa-circle fa-stack-2x tw-background"></i>
-                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                    </span>
 
-                    <span class="fa-stack fa-xs">
-                        <i class="fas fa-circle fa-stack-2x rd-background"></i>
-                        <i class="fab fa-reddit fa-stack-1x fa-inverse"></i>
-                    </span>
+                    </a>
+
+                    <a href="https://github.com/jenlee-tech/Chingu-Landing-Page" target=_"blank">
+                        <span class="fa-stack fa-xs">
+                            <i class="fas fa-circle fa-stack-2x rd-background"></i>
+                            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+
+
+
                 </div>
             </aside>
         </nav>
@@ -63,8 +76,9 @@
             <h4>Popular on R/Javascript</h4>
             <p class="javascript-blurb">The Revolutionary project management tool is here and it's visual.
                 Start Your Free Trial Now.
-                Start Free Trial
-                Sponsored by monday
+                <br>
+                <bdi class="yellow">Start Free Trial</bdi><br>
+                <bdi class="pink">Sponsored by monday</bdi>
             </p>
 
             <p class="javascript-blurb">A teacher at my school was sick of remembering all the different bell schedules.
@@ -94,6 +108,11 @@
         </div>
         <div class="relevant">
             <h4> Relevant Javascript History</h4>
+            <time>
+                <div id="clockbox" style="text-align:center;"></div>
+
+
+            </time>
 
 
         </div>
