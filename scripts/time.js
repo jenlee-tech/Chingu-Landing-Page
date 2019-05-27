@@ -1,4 +1,3 @@
-window.onload =
     function GetClock() {
         let d = new Date();
         let nhour = d.getHours();
@@ -17,12 +16,18 @@ window.onload =
             nhour -= 12;
         };
 
+
         if (nmin <= 9) nmin = "0" + nmin;
 
-        clocktext = "" + nhour + ":" + nmin + ap + "";
+        clocktext = "" + nhour + ":" + nmin + "";
+
         document.getElementById("timestamp").innerHTML = clocktext;
+        document.getElementById("date").innerHTML = date;
+        document.getElementById("ap-text").innerHTML = ap;
+
+
 
     };
 
-GetClock()
-setInterval(GetClock, 1000);
+    GetClock()
+    setInterval(GetClock, 1000);

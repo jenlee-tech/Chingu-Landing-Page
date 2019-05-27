@@ -261,3 +261,29 @@ h4 {
     padding: 1%;
     width: auto;
 }
+
+.relevant-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+time {
+    text-align: center;
+    padding-top: 15%;
+
+}
+
+#timestamp {
+    color: #6272A4;
+    font-size: 600%;
+    font-weight: bold;
+
+}
+
+.ap-text {
+    color: #6272A4;
+    font-size: 50%;
+    font-weight: bold;
+
+
+}
