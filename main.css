@@ -256,5 +256,19 @@ h4 {
 }
 
 .relevant th {
-    padding: 2%;
+    padding: 1%;
+    width: auto;
 }
+
+/*
+.th1 {
+    width: 2%;
+}
+
+.th2 {
+    width: 50%;
+}
+
+.th3 {
+    width: 48%;
+}*/
