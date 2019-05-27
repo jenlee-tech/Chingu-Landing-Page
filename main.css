@@ -265,6 +265,7 @@ h4 {
 .relevant-2 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 time {
@@ -275,15 +276,20 @@ time {
 
 #timestamp {
     color: #6272A4;
-    font-size: 600%;
+    font-size: 700%;
     font-weight: bold;
+    vertical-align: super;
 
 }
 
-.ap-text {
+#ap-text {
     color: #6272A4;
-    font-size: 50%;
+    font-size: 200%;
     font-weight: bold;
+    vertical-align: sub;
+    padding-top: 24%;
+    padding-left: 2%;
+
 
 
 }
