@@ -282,6 +282,13 @@ time {
 
 }
 
+#datestamp {
+    color: #6272A4;
+    font-size: 150%;
+
+
+}
+
 #ap-text {
     color: #6272A4;
     font-size: 200%;
@@ -290,6 +297,8 @@ time {
     padding-top: 27%;
     padding-left: 2%;
 
+}
 
-
+.relevant-3 {
+    text-align: center;
 }
