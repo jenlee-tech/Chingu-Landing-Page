@@ -152,8 +152,18 @@ aside {
 }
 
 .popular::-webkit-scrollbar {
-    opacity: 0;
+    opacity: 0px;
     width: 0px
+}
+
+
+.popular p {
+    border-left-style: solid;
+    border-left-color: #e6db74;
+    ;
+    padding-left: 2%;
+
+
 }
 
 
