@@ -29,9 +29,10 @@ nav {
     background-color: #44475a;
     padding: 1% 1% 100%;
     text-transform: uppercase;
-    /*height: 100%;*/
+    height: 100%;
     width: 15%;
     overflow-y: hidden;
+
 
 
 }
@@ -232,6 +233,7 @@ i {
     background: #272936;
     padding: 1% 1% 100%;
     width: 50%;
+    height: 100%;
 
 }
 
@@ -242,6 +244,7 @@ i {
     padding: 1% 1% 100% 1%;
     width: 20%;
     text-align: center;
+    height: 100%;
 
 }
 
