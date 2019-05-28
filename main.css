@@ -136,6 +136,9 @@ aside {
 
 }
 
+.qu-background {
+    color: #F7B76B;
+}
 
 /*Popular section*/
 .popular {
@@ -186,6 +189,11 @@ aside {
 .nav-item5,
 .purple {
     color: #bd93f9;
+}
+
+/*grayish purple*/
+.purple-gray {
+    color: #6272A4;
 }
 
 /*white*/
@@ -294,11 +302,32 @@ time {
     font-size: 200%;
     font-weight: bold;
     vertical-align: sub;
-    padding-top: 27%;
+    padding-top: 25%;
     padding-left: 2%;
 
 }
 
 .relevant-3 {
     text-align: center;
+}
+
+#relevant-4 {
+    text-align: center;
+    padding-top: 5%;
+    color: #6272A4;
+
+}
+
+#relevant-5 {
+
+    text-align: center;
+    color: #F7B76B;
+    padding-top: 2%;
+    background: #272936;
+}
+
+#textbutton {
+    background: #272936;
+    color: #F7B76B;
+    border: none;
 }

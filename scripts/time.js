@@ -39,4 +39,3 @@ function GetClock() {
 
 GetClock()
 setInterval(GetClock, 1000);
-//setInterval(dateStamp, 1000);
