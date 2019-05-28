@@ -230,8 +230,11 @@ i {
 
 .github-issues {
     background: #272936;
-    padding: 1% 1% 100%;
+    padding: 1% 1% 100% 1%;
     width: 20%;
+    text-align: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 /*styling for Popular Div*/
@@ -330,4 +333,25 @@ time {
     background: #272936;
     color: #F7B76B;
     border: none;
+}
+
+.ad-feed {
+    font-size: x-large;
+    color: #F7B76B;
+    font-weight: bold;
+    padding-top: 40%;
+}
+
+.github-issue-feed {
+    text-align: left;
+}
+
+.bdipad {
+    padding-bottom: 2%;
+}
+
+.github-issue-feed p {
+    border-left-style: solid;
+    border-left-color: #6272A4;
+    padding-left: 2%;
 }
