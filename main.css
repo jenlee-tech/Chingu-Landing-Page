@@ -360,10 +360,23 @@ time {
     text-align: left;
     height: 300px;
     padding-top: 4%;
+    border-bottom-style: solid;
+    border-bottom-color: #6272A4;
+    border-width: 1px;
+
 }
 
 
 .github-issue-feed::-webkit-scrollbar {
     opacity: 0;
     width: 0px
+}
+
+.github-issues h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
