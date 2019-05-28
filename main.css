@@ -233,8 +233,7 @@ i {
     padding: 1% 1% 100% 1%;
     width: 20%;
     text-align: center;
-    overflow-y: scroll;
-    overflow-x: hidden;
+
 }
 
 /*styling for Popular Div*/
@@ -342,9 +341,6 @@ time {
     padding-top: 40%;
 }
 
-.github-issue-feed {
-    text-align: left;
-}
 
 .bdipad {
     padding-bottom: 2%;
@@ -354,4 +350,20 @@ time {
     border-left-style: solid;
     border-left-color: #6272A4;
     padding-left: 2%;
+
+
+}
+
+.github-issue-feed {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-align: left;
+    height: 300px;
+    padding-top: 4%;
+}
+
+
+.github-issue-feed::-webkit-scrollbar {
+    opacity: 0;
+    width: 0px
 }
