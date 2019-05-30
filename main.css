@@ -1,394 +1,361 @@
 html {
-    font-family: "Inconsolata", "arial";
-
+  font-family: "Inconsolata", "arial";
+  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
-
-
-.gray {
-    color: #858587;
-}
-
 
 .container {
-    display: inline-flex;
-    flex-grow: 1;
-    /*flex-grow: fills up the rest of the div*/
+  display: inline-flex;
+  flex-grow: 1;
+  /*flex-grow: fills up the rest of the div*/
 
-    /* position: relative;*/
-    height: 300px;
-    /*in the "wrapper" or "container", there has to be a set 
+  /* position: relative;*/
+  height: 300px;
+  /*in the "wrapper" or "container", there has to be a set 
     height in order for the scroll features in the child divs to work*/
 }
 
-
-
-
-
-
 nav {
-    background-color: #44475a;
-    padding: 1% 1% 100%;
-    text-transform: uppercase;
-    height: 100%;
-    width: 15%;
-    overflow-y: hidden;
-
-
-
+  background-color: #44475a;
+  padding: 1% 1% 100%;
+  text-transform: uppercase;
+  height: 100%;
+  width: 15%;
+  overflow-y: hidden;
 }
 
 ul {
-    padding-inline-start: 5px;
+  padding-inline-start: 5px;
+  padding-bottom: 50%;
 }
 
 aside {
-    padding: 60% 10% 20% 5%;
-    color: white;
-    /*this colors the icon's color to white*/
-    text-align: center;
+  padding: 60% 10% 20% 5%;
+  color: white;
+  /*this colors the icon's color to white*/
+  text-align: center;
 }
-
-
-
-
 
 /*styles for the icons in the nav element*/
 
 .fa-wrench:before {
-    content: "\f0ad";
-    background: #8BE9FC;
-    /*BLUE*/
-    padding: 7px;
-    border-radius: 4px;
+  content: "\f0ad";
+  background: #8be9fc;
+  /*BLUE*/
+  padding: 7px;
+  border-radius: 4px;
 }
 
 .fa-code:before {
-    content: "\f121";
-    background: #74F27C;
-    /*GREEN*/
-    padding: 5px;
-    border-radius: 4px;
+  content: "\f121";
+  background: #74f27c;
+  /*GREEN*/
+  padding: 5px;
+  border-radius: 4px;
 }
 
-
-
 .fa-stack-overflow:before {
-    content: "\f16c";
-    background: #F7B76B;
-    /*ORANGE*/
-    padding: 9px;
-    border-radius: 4px;
+  content: "\f16c";
+  background: #f7b76b;
+  /*ORANGE*/
+  padding: 9px;
+  border-radius: 4px;
 }
 
 .fa-chart-line:before {
-    content: "\f201";
-    background: #ED76C5;
-    /*PINK*/
-    padding: 7px;
-    border-radius: 4px;
+  content: "\f201";
+  background: #ed76c5;
+  /*PINK*/
+  padding: 7px;
+  border-radius: 4px;
 }
 
 .fa-pencil-alt:before {
-    content: "\f303";
-    background: #bd93f9;
-    /*PURPLE*/
-    padding: 7px;
-    border-radius: 4px;
+  content: "\f303";
+  background: #bd93f9;
+  /*PURPLE*/
+  padding: 7px;
+  border-radius: 4px;
 }
 
 .fa-lightbulb:before {
-    content: "\f0eb";
-    background: #f8f8f2;
-    /*WHITE*/
-    padding: 9px;
-    border-radius: 4px;
+  content: "\f0eb";
+  background: #f8f8f2;
+  /*WHITE*/
+  padding: 9px;
+  border-radius: 4px;
 }
 
 .fa-lock:before {
-    content: "\f023";
-    color: white;
-
+  content: "\f023";
+  color: white;
 }
 
 .fa-question:before {
-    content: "\f128";
-    background: #e6db74;
-    /*YELLOW*/
-    padding: 8px;
-    border-radius: 4px;
+  content: "\f128";
+  background: #e6db74;
+  /*YELLOW*/
+  padding: 8px;
+  border-radius: 4px;
 }
 
-
 .fb-background {
-    color: #3B5997;
+  color: #3b5997;
 }
 
 .lk-background {
-    color: #2b7fb0;
+  color: #2b7fb0;
 }
 
 .tw-background {
-    /*color: #33CCFF; */
-    color: #3DACED;
+  /*color: #33CCFF; */
+  color: #3daced;
 }
 
 .rd-background {
-    color: #5E98CC;
-
+  color: #5e98cc;
 }
 
 .qu-background {
-    color: #F7B76B;
+  color: #f7b76b;
 }
 
 /*Popular section*/
 .popular {
-    background: #272936;
-    padding: 1% 1% 100%;
-    height: 100%;
-    width: 20%;
-    overflow-y: scroll;
-    overflow-x: hidden;
-
+  background: #272936;
+  padding: 1% 1% 100%;
+  width: 20%;
+  height: 100%;
 }
 
-.popular::-webkit-scrollbar {
-    opacity: 0px;
-    width: 0px
+.popular-feed {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 700px;
 }
-
+.popular-feed::-webkit-scrollbar {
+  opacity: 0px;
+  width: 0px;
+}
 
 .popular p {
-    border-left-style: solid;
-    border-left-color: #e6db74;
-    padding-left: 2%;
-
-
+  border-left-style: solid;
+  border-left-color: #e6db74;
+  padding-left: 2%;
 }
-
-
 
 /*colors*/
 /*blue*/
 .nav-item1,
 .blue {
-    color: #8BE9FC;
-
+  color: #8be9fc;
 }
 
 /*green*/
 .nav-item2,
 .green {
-    color: #74F27C;
-
+  color: #74f27c;
 }
 
 /*orange*/
 .nav-item3,
 .orange {
-    color: #F7B76B;
+  color: #f7b76b;
 }
 
 /*pink*/
 .nav-item4,
 .pink {
-    color: #ED76C5;
+  color: #ed76c5;
 }
 
 /*purple*/
 .nav-item5,
 .purple {
-    color: #bd93f9;
+  color: #bd93f9;
 }
 
 /*grayish purple*/
 .purple-gray {
-    color: #6272A4;
+  color: #6272a4;
 }
 
 /*white*/
 .nav-item6,
 .white {
-    color: #f8f8f2;
-
+  color: #f8f8f2;
 }
 
 /*yellow*/
 .nav-item7,
 .yellow {
-    color: #e6db74;
+  color: #e6db74;
 }
 
 li {
-    padding: 5%;
+  padding: 5%;
 }
 
 i {
-    padding: 3px;
-    align-content: center;
-    color: black;
+  padding: 3px;
+  align-content: center;
+  color: black;
 }
 
 .relevant {
-    background: #272936;
-    padding: 1% 1% 100%;
-    width: 50%;
-    height: 100%;
-
+  background: #272936;
+  padding: 1% 1% 100%;
+  width: 50%;
+  height: 100%;
 }
 
-
-
 .github-issues {
-    background: #272936;
-    padding: 1% 1% 100% 1%;
-    width: 20%;
-    text-align: center;
-    height: 100%;
-
+  background: #272936;
+  padding: 1% 1% 100% 1%;
+  width: 20%;
+  text-align: center;
+  height: 100%;
 }
 
 /*styling for Popular Div*/
 
-
 .javascript-blurb {
-    color: white;
+  color: white;
 }
 
 h4 {
-    color: #8BE9FC;
-    text-transform: uppercase;
-    text-align: center;
+  color: #8be9fc;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 #timestamp {
-    color: #6272A4;
-    font-size: 600%;
-    font-weight: bold;
-    padding-top: 15%;
+  color: #6272a4;
+  font-size: 600%;
+  font-weight: bold;
+  padding-top: 15%;
 }
 
-.relevant table {
-    color: #6272A4;
-    text-align: left;
-    width: 100%;
-    /*expands the table to fill up the relevant div*/
-    border-width: 2px;
-    border-bottom-style: solid;
-    border-color: #444658;
-
+.relevant-table {
+  color: #6272a4;
+  text-align: left;
+  width: 100%;
+  /*expands the table to fill up the relevant div*/
+  border-width: 2px;
+  border-bottom-style: solid;
+  border-color: #444658;
+  display: block;
+  height: 300px;
+  overflow-y: scroll;
+}
+.relevant-table::-webkit-scrollbar {
+  opacity: 0px;
+  width: 0px;
 }
 
 .relevant th {
-    padding: 1%;
-    width: auto;
+  padding: 1%;
+  width: auto;
+}
+
+.gray {
+  /*this is the color and alignment for table's 2nd column*/
+  color: #858587;
+  text-align: right;
 }
 
 .relevant-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 time {
-    text-align: center;
-    padding-top: 15%;
-
+  text-align: center;
+  padding-top: 15%;
 }
 
 #timestamp {
-    color: #6272A4;
-    font-size: 700%;
-    font-weight: bold;
-    vertical-align: super;
-
+  color: #6272a4;
+  font-size: 700%;
+  font-weight: bold;
+  vertical-align: super;
 }
 
 #datestamp {
-    color: #6272A4;
-    font-size: 150%;
-
-
+  color: #6272a4;
+  font-size: 150%;
 }
 
 #ap-text {
-    color: #6272A4;
-    font-size: 200%;
-    font-weight: bold;
-    vertical-align: sub;
-    padding-top: 25%;
-    padding-left: 2%;
-
+  color: #6272a4;
+  font-size: 200%;
+  font-weight: bold;
+  vertical-align: sub;
+  padding-top: 25%;
+  padding-left: 2%;
 }
 
 .relevant-3 {
-    text-align: center;
+  text-align: center;
 }
 
 #relevant-4 {
-    text-align: center;
-    padding-top: 5%;
-    color: #6272A4;
-
+  text-align: center;
+  padding-top: 5%;
+  color: #6272a4;
 }
 
 #relevant-5 {
-
-    text-align: center;
-    color: #F7B76B;
-    padding-top: 2%;
-    background: #272936;
+  text-align: center;
+  color: #f7b76b;
+  padding-top: 2%;
+  background: #272936;
 }
 
 #textbutton {
-    background: #272936;
-    color: #F7B76B;
-    border: none;
+  background: #272936;
+  color: #f7b76b;
+  border: none;
 }
 
 .ad-feed {
-    font-size: x-large;
-    color: #F7B76B;
-    font-weight: bold;
-    padding-top: 40%;
+  font-size: x-large;
+  color: #f7b76b;
+  font-weight: bold;
+  padding-top: 40%;
 }
 
-
 .bdipad {
-    padding-bottom: 2%;
+  padding-bottom: 2%;
 }
 
 .github-issue-feed p {
-    border-left-style: solid;
-    border-left-color: #6272A4;
-    padding-left: 2%;
-
-
+  border-left-style: solid;
+  border-left-color: #6272a4;
+  padding-left: 2%;
 }
 
 .github-issue-feed {
-    overflow-y: scroll;
-    overflow-x: hidden;
-    text-align: left;
-    height: 300px;
-    padding-top: 4%;
-    border-bottom-style: solid;
-    border-bottom-color: #6272A4;
-    border-width: 1px;
-
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-align: left;
+  height: 300px;
+  padding-top: 4%;
+  border-bottom-style: solid;
+  border-bottom-color: #6272a4;
+  border-width: 1px;
 }
 
-
 .github-issue-feed::-webkit-scrollbar {
-    opacity: 0;
-    width: 0px
+  opacity: 0;
+  width: 0px;
 }
 
 .github-issues h4 {
-    display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
